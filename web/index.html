@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Login</title>
+    </head>
+    <body>
+        <h1 >Login</h1>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm">
+                    <form action="Login" method="post">
+                        <div class="form-group">
+                            <label >Escribe su usuario</label>
+                            Nombre:<input type="String" class="form-control" name="user_name" placeholder="Nombre "required>
+                        </div>
+                        <div class="form-group">
+                            <label >Escribe la contraseña</label>
+                            password:<input type="String" class="form-control" name="user_password" placeholder="Contraseña" required>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                    <form action="Register" method="post">
+                        <button type="submit" class="btn btn-secondary">Resgistrar</button> 
+                    </form>
+                </div>
+            </div> 
+
+
+        </div>
+    </body>
+</html>
